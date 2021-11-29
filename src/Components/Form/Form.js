@@ -43,7 +43,7 @@ const Form = () => {
         event.preventDefault();
 
         if (formValidation()) {
-            alert("formulaire envoyé");
+            alert("Merci pour votre candidature, vous serez (jamais) bientôt rappelé");
             // alert("Le formulaire contient une ou des erreurs");
         }
     };
