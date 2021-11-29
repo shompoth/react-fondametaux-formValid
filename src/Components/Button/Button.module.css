@@ -1,0 +1,12 @@
+.buttonStyle {
+    padding: 5px 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-block: 20px;
+}
+
+button:active {
+    transform: scale(0.95);
+
+    box-shadow: 3px 2px 22px 0px rgba(0, 0, 0, 0.24);
+}
