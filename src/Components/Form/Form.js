@@ -31,7 +31,7 @@ const Form = () => {
         }
 
         if (motivation.length < 100) {
-            errors["motivation"] = "Ce champs doit contenir au moins 300 charactères";
+            errors["motivation"] = "Ce champs doit contenir au moins 100 charactères";
             formIsValid = false;
         }
 
